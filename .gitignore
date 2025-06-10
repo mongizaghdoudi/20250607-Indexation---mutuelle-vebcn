@@ -1,3 +1,5 @@
+.getignore
+.projet
 a_ignorer/*
 .settings/*
 .build/*
