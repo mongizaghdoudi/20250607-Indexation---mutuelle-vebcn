@@ -1,0 +1,39 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%                         FORMAT PERSONNALISES                           %
+% %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\parindent=0pt        %leading space for paragraphs
+\pagestyle{fancy}
+\renewcommand{\arraystretch}{1.5}
+\renewcommand{\headrulewidth}{0pt}
+\fancyhead[CE,CO,LE,LO,RE,RO]{} %% clear out all headers
+\fancyhead[C]{%
+\begin{tabular}{|m{3.0cm}|m{10cm}|c@{}|}
+\hline
+\multirow{2}{*}{\includegraphics[scale=0.25]																			% LOGO LABO
+{logo1.jpg}}& \centering \multirow{2}{*}{ \Large{\thetitle}}  &  \multirow{2}{*}{Page: \thepage ~/ \pageref{LastPage}}\\
+& &  \\
+\hline
+%Etabli par: \newline \theauthor & \multicolumn{2}{l|}{Diffusion: interne}\\
+%\hline
+\multicolumn{2}{|l|}{Objet: \thetitleobject }& Date: \headertoday ~~\\ 
+\hline
+\end{tabular}
+}
+\renewcommand\footrulewidth{1pt}
+\fancyfoot[L]{Document confidentiel} 																		% DOCUMENT CONFIDENTIEL
+\fancyfoot[R]{Laboratoire SYMME}		 																	% NOM DU LABO
+
+\newcolumntype{x}[1]{>{\centering\hspace{0pt}}p{#1}}
+\setlength{\doublerulesep}{\arrayrulewidth} 
+
+
+\usepackage{tikz}																							% pour les diagrammes
+\usetikzlibrary{calc}
+\usetikzlibrary{shapes.geometric,shapes.arrows,decorations.pathmorphing}
+\usetikzlibrary{matrix,chains,scopes,positioning,shapes,arrows,fit}
+\usetikzlibrary{calc,decorations.pathreplacing}
+\usetikzlibrary{calc}
+\usetikzlibrary{backgrounds,decorations.markings}
+
+\setcounter{secnumdepth}{5}		%sous sous sous section

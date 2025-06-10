@@ -1,0 +1,49 @@
+\usepackage[lmargin=2.00000cm,rmargin=2.0000cm,tmargin=5.5000cm,bmargin=2.500000cm,headheight=3.5cm]{geometry}        %Flexible and complete interface to document dimensions
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+%\usepackage[latin1]{inputenc}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{lmodern}
+\usepackage{float}
+\usepackage{graphicx}
+
+\usepackage[english,french]{babel}        %use for the below package `datetime'
+\usepackage[babel=true]{csquotes}
+\usepackage{datetime}        %Change format of `\today' with commands for current time
+\renewcommand{\dateseparator}{-}
+\newcommand{\headertoday}{\twodigit\day \dateseparator \twodigit\month  \dateseparator \the\year}
+
+\usepackage{animate}
+\usepackage{lastpage}
+\usepackage{array}
+\usepackage{lastpage}
+\usepackage{multirow}
+\usepackage{titling}
+\usepackage{placeins}
+\usepackage{media9}
+\usepackage{eurosym}
+\usepackage{pdflscape}
+\usepackage{color}
+\usepackage[table]{xcolor}
+\definecolor{mon_bleu}{rgb}{0.137,0.466,0.741}
+\definecolor{mon_vert}{rgb}{0.07843,0.4627,0.07843}
+\definecolor{mon_rouge}{rgb}{0.62745,0.16078,0.27058}		
+%\usepackage{subfigure}
+\usepackage{subcaption}
+
+\usepackage[ 
+           hidelinks,
+           colorlinks=true,
+           linkcolor=blue,          % color of internal links (change box color with linkbordercolor)
+    	   citecolor=blue,        % color of links to bibliography
+    	   filecolor=blue,      % color of file links
+    	   urlcolor=blue,           % color of external links
+           pdfhighlight =/O]{hyperref}																		% dvipdfm package pour lien hypertextes dans pdf (pdfhighlight--> afficher la main dans le pdf, colorlinks--> colorlinks=true afficher les liens en couleurs)
+  
+\usepackage{blindtext}
+\usepackage[final]{pdfpages}
+\usepackage[french]{cleveref}																				% à placer après hyperref attention ne pas utiliser ":" dans les labels des équations avec French babel activé et cref
+
+\usepackage{fancyhdr}

@@ -1,0 +1,5 @@
+a_ignorer/*
+.settings/*
+.build/*
+.altairRemoteSystemsTempFiles/*
+.metadata/*

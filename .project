@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<projectDescription>
+	<name>Indexation</name>
+	<comment></comment>
+	<projects>
+	</projects>
+	<buildSpec>
+		<buildCommand>
+			<name>com.wpl.workbench.hubartefactproject.ui.HubArtefactProjectBuilder</name>
+			<arguments>
+			</arguments>
+		</buildCommand>
+	</buildSpec>
+	<natures>
+		<nature>com.wpl.workbench.hubartefactproject.ui.HubArtefactProjectNature</nature>
+	</natures>
+</projectDescription>
